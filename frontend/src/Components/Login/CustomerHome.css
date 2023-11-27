@@ -1,0 +1,67 @@
+/* CustomerHomeStyles.css */
+
+/* Style for the container */
+.customerHomeContainer {
+    /* max-width: 600px; */
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for headings */
+  .customerHomeHeading {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  /* Style for forms and form elements */
+  .customerHomeForm {
+    margin-bottom: 20px;
+  }
+  
+  .customerHomeForm label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .customerHomeForm input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .customerHomeForm button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .customerHomeForm button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Style for table display */
+  .customerHomeTable {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .customerHomeTable th,
+  .customerHomeTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .customerHomeTable th {
+    background-color: #f2f2f2;
+  }
+  

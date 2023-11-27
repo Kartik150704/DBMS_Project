@@ -1,0 +1,47 @@
+/* AdminHomeStyles.css */
+
+/* Style for the container */
+.adminHomeContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the heading */
+  .adminHomeHeading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for form elements */
+  .adminHomeLabel {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .adminHomeInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .adminHomeSubmitBtn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .adminHomeSubmitBtn:hover {
+    background-color: #2980b9;
+  }
+  

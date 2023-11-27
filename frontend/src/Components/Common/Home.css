@@ -1,0 +1,48 @@
+/* Home.css */
+
+/* Style for buttons in Home component */
+.homeAdminButton {
+    /* Add your styles for the Admin button */
+    /* Example styles: */
+    height: 40px;
+    width: 40vw;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: bold;
+    
+    /* Add other styles as needed */
+  }
+  
+  .homeCustomerButton {
+    /* Add your styles for the Customer buttons */
+    /* Example styles: */
+    height: 40px;
+    width: 40vw;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: bold;
+   
+    /* Add other styles as needed */
+  }
+  
+  .homeDriverButton {
+    /* Add your styles for the Driver buttons */
+    /* Example styles: */
+    height: 40px;
+    width: 40vw;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: bold;
+   
+    /* Add other styles as needed */
+  }
+
+  .HomePage
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    justify-content: space-around;
+  }

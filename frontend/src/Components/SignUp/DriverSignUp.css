@@ -1,0 +1,61 @@
+/* DriverSignUpStyles.css */
+
+/* Style for the container */
+.DriverSignUp-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .DriverSignUp-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .DriverSignUp-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .DriverSignUp-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .DriverSignUp-form button:hover {
+    background-color: #2980b9;
+  }
+  
+  .DriverSignUp-details {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .DriverSignUp-details h3 {
+    font-size: 18px;
+  }
+  
+  .DriverSignUp-details button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .DriverSignUp-details button:hover {
+    background-color: #2980b9;
+  }
+  
