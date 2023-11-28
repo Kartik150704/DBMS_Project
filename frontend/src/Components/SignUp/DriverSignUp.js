@@ -22,6 +22,10 @@ const MyForm = () => {
     e.preventDefault();
     console.log(formData)
     let response = await FetchAPI("http://localhost:8000/driver/signup", "POST", formData)
+    if(response.error)
+    {
+       alert(response.error.message)
+    }
     if (response.ok) {
       setDriverId(response.DriverId)
     }

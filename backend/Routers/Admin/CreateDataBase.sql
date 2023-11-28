@@ -99,3 +99,26 @@ BEGIN
     WHERE DriverId = driverId_param;
 END //
 DELIMITER ;
+
+
+DELIMITER //
+
+CREATE TRIGGER CheckDriverTrigger AFTER INSERT ON Driver
+FOR EACH ROW
+BEGIN
+    DECLARE check_mobile_length INT;
+    DECLARE check_adhar_length INT;
+    DECLARE vehicle_number_length INT;
+
+    SET check_mobile_length = CHAR_LENGTH(NEW.MobileNumber);
+    SET check_adhar_length = CHAR_LENGTH(NEW.AdharNumber);
+    SET vehicle_number_length = CHAR_LENGTH(NEW.VehicleNumber);
+
+    IF check_mobile_length != 10 OR check_adhar_length != 12 OR vehicle_number_length != 6 THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Mobile number should be 10 digits, Adhar number should be 12 digits, and Vehicle number should be 6 characters';
+    END IF;
+END;
+//
+
+DELIMITER ;
